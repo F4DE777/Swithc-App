@@ -1,0 +1,15 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 3rem;
+
+    p{
+            text-align: left;
+            font-size: 14px ;
+            font-family:Catamaran ;
+            letter-spacing: 0px;
+            color: #191919;
+            opacity: 1;
+    }
+}

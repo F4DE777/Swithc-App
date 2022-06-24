@@ -1,13 +1,20 @@
 import './form.scss';
 import Logo from '../../../assets/SwitchAppblack@2x.png'
+import Back from '../../../assets/vuesax-bulk-arrow-circle-left.svg'
+
 import FormSign from './FormSign';
+import { Link } from 'react-router-dom';
+import Footer from '../../footer/Footer';
 
 export default function Form() {
 
     
   return (
     <div className='container'>
-
+        <Link to={'/'} className='previous'>
+            <img src={Back} alt="" />
+            <p>Back</p>
+        </Link>
         <div className='cover'>
             <div className='started'>
                 <img src={Logo} alt="" />
@@ -28,6 +35,7 @@ export default function Form() {
             </div>
                 <FormSign/>
         </div>
+        <Footer/>
     </div>
   )
 }

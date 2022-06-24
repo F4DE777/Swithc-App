@@ -1,5 +1,6 @@
 import React,{useEffect} from "react";
 import Logo from '../../assets/SwitchAppblack@2x.png'
+import Footer from "../footer/Footer";
 import "./home.scss";
 
 export default function Home() {
@@ -37,7 +38,7 @@ useEffect(() => {
               </form>
         </div>
         
-
+      <Footer/>
     </div>
   )
 }

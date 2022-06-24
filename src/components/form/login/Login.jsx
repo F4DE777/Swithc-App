@@ -1,6 +1,7 @@
 import './login.scss';
 import Logo from '../../../assets/SwitchAppblack@2x.png'
 import { Link } from 'react-router-dom';
+import Footer from '../../footer/Footer';
 
 
 export default function Login() {
@@ -27,7 +28,7 @@ export default function Login() {
             </div>
             </div>
             
-
+        <Footer/>
         </div>
   )
 }
