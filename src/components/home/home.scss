@@ -1,0 +1,146 @@
+.cover{
+    background-attachment: fixed;
+    background-image: url('../../assets/MaskGroup.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    // position: relative;
+    &::before{
+        // content: '';
+        background-image: url('../../assets/vuesax-bulk-arrow-down (1).svg');
+        position: absolute;
+        background-repeat: no-repeat;
+
+        right: 0;
+        top: 0;
+        width: 40rem;
+        height: 40rem;
+        z-index: 100;
+    }
+
+    .card-cover{
+        width: 30%;
+        height: 60%;
+        justify-content: flex-start;
+        margin: 0 auto;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        img{
+            width: 14rem;
+            height: 5rem;
+            object-fit: contain;
+            margin-left: -3rem;
+        }
+
+        .card-content{
+            background-color: #fff;
+            box-shadow: 0px 3px 6px #0000000D;
+            height: 100%;
+            width: 80%;
+            padding: 2rem;
+            border: 1px solid rgba(0, 0, 0, 0.144);
+            border-radius: 20px;
+            margin: 0 auto;
+       
+            h4{
+                font-family:catamaran ;
+                font-size: 1.6rem;
+            }
+            ul{
+                padding: 0;
+                list-style: none;
+                margin: 0;
+                height: 40%;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+                li{
+                    display: grid;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 1rem;
+                    grid-template-columns: 5% 1fr;
+                    #checkit{
+                        // width: 50px;
+                        // height: 50px;
+                        // border: 2px solid #191919;
+                        // background-color: transparent;
+                        // border-radius: 50%;
+                        // margin: 0;
+                        // outline: none;
+
+                        width:25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        vertical-align: middle;
+                        border: 1px solid #70707040;
+                        appearance: none;
+                        -webkit-appearance: none;
+                        outline: none;
+                        cursor: pointer;
+                        margin: 2px;
+                        &:checked {
+                            appearance: auto;
+                            clip-path: circle(50% at 50% 50%);
+                            background-color: #1899D7;
+                            border: 1px solid #70707040;
+                        }
+                    }
+                    span{
+                        display: flex;
+                        flex-direction: column;
+
+                      
+
+                        label{
+                            font-family:catamaran ;
+                            font-weight: 600;
+                            font-size: 1.25rem;
+                            color: #191919;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+                        }
+
+                        p{
+                            margin: 0;
+                            color: rgba(150, 148, 148, 0.952);
+                            font-size: 15px;
+                            font-weight: 100;
+                        }
+                    }
+                }
+            }
+
+            .sub{
+                margin-top: 5rem;
+                .submit{
+                    background-color: #1899D7;
+                    border: 1px solid #b2b2b280;
+                    color: #FFFFFF;
+                    width: 187px;
+                    height: 60px;
+                    font: normal normal 600 18px/30px Catamaran;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    outline: none;
+
+                    &.disable{
+                        cursor: not-allowed;
+                        background-color: #189bd78e;
+                    }
+                }
+            }
+        }
+    }
+}

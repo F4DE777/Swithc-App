@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">
+  <g id="Group_29" data-name="Group 29" transform="translate(-2352 -505)">
+    <g id="vuesax_bulk_arrow-down" data-name="vuesax/bulk/arrow-down" transform="translate(2116 265)">
+      <g id="arrow-down">
+        <path id="Vector" d="M10.479,5.05,6.689,0H1.079a1.077,1.077,0,0,0-.76,1.84L5.5,7.02a2.131,2.131,0,0,0,3.01,0Z" transform="translate(241.001 260.18)" fill="#1899d7" opacity="0.4"/>
+        <path id="Vector-2" data-name="Vector" d="M6.23,0H0L3.79,5.05,7,1.84A1.082,1.082,0,0,0,6.23,0Z" transform="translate(247.69 260.18)" fill="#1899d7"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(236 252)" fill="none" opacity="0"/>
+      </g>
+    </g>
+    <g id="vuesax_bulk_arrow-down-2" data-name="vuesax/bulk/arrow-down" transform="translate(2612 781) rotate(180)">
+      <g id="arrow-down-2" data-name="arrow-down">
+        <path id="Vector-4" data-name="Vector" d="M10.479,5.05,6.689,0H1.079a1.077,1.077,0,0,0-.76,1.84L5.5,7.02a2.131,2.131,0,0,0,3.01,0Z" transform="translate(241.001 260.18)" fill="#1899d7" opacity="0.4"/>
+        <path id="Vector-5" data-name="Vector" d="M6.23,0H0L3.79,5.05,7,1.84A1.082,1.082,0,0,0,6.23,0Z" transform="translate(247.69 260.18)" fill="#1899d7"/>
+        <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(236 252)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
