@@ -52,6 +52,8 @@
             border: 1px solid rgba(0, 0, 0, 0.144);
             border-radius: 20px;
             margin: 0 auto;
+            display: flex;
+            flex-direction: column;
        
             h4{
                 font-family:catamaran ;
@@ -123,7 +125,9 @@
             }
 
             .sub{
-                margin-top: 5rem;
+                margin-top: 2rem;
+                width: 187px;
+                position: relative;
                 .submit{
                     background-color: #1899D7;
                     border: 1px solid #b2b2b280;
@@ -135,10 +139,10 @@
                     cursor: pointer;
                     outline: none;
 
-                    &.disable{
-                        cursor: not-allowed;
-                        background-color: #189bd78e;
-                    }
+                    // &.disable{
+                    //     cursor: not-allowed;
+                    //     background-color: #189bd78e;
+                    // }
                 }
             }
         }

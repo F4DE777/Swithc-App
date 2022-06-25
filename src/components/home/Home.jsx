@@ -1,4 +1,5 @@
 import React,{useEffect} from "react";
+import { Link } from "react-router-dom";
 import Logo from '../../assets/SwitchAppblack@2x.png'
 import Footer from "../footer/Footer";
 import "./home.scss";
@@ -32,9 +33,9 @@ useEffect(() => {
                       </span>
                     </li>
                   </ul>
-                  <div className="sub">
+                  <Link to='/sign-up' className="sub">
                       <input className="submit disable" type="button" id="submit" value="Continue" />
-                  </div>
+                  </Link>
               </form>
         </div>
         
