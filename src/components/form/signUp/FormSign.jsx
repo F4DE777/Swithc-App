@@ -12,7 +12,7 @@ export default function FormSign({submitForm}) {
         validate
       );
   return (
-      <div className='form-right'>
+      <div className='form-right page'>
             <div className='form-content-right'>
                 <h3>Create your Merchant account</h3>
                 <form onSubmit={handleSubmit}  className='form' >

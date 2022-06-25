@@ -12,7 +12,7 @@ useEffect(() => {
   console.log(rad1);
 }, [])
   return (
-    <div className="cover" >
+    <div className="cover page" >
         <div className="card-cover" >
               <img src={Logo} alt="logo" />
               <form className="card-content">
