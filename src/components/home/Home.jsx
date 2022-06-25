@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from '../../assets/SwitchAppblack@2x.png'
 import Footer from "../footer/Footer";
 import "./home.scss";
-
+import 'aos/dist/aos.css'
 export default function Home() {
 
  
@@ -12,8 +12,8 @@ useEffect(() => {
   console.log(rad1);
 }, [])
   return (
-    <div className="cover">
-        <div className="card-cover">
+    <div className="cover" >
+        <div className="card-cover" >
               <img src={Logo} alt="logo" />
               <form className="card-content">
                   <h4>Get started with Switch App</h4>
@@ -27,7 +27,7 @@ useEffect(() => {
                     </li>
                     <li>
                       <input type="radio" name="" id="merchant" value="2" />
-                      <span>
+                      <span >
                           <label>Merchant Account</label>
                           <p>Let your customers Shop online and receive instant settlement. All without sharing your payment info.</p>
                       </span>

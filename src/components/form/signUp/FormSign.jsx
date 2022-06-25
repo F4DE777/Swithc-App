@@ -78,9 +78,9 @@ export default function FormSign({submitForm}) {
                         <input type="checkbox" name="" id="" />
                         <p>I agree that Switch App may contact me at the email address or phone number above.</p>
                     </span>
-                    <button className='form-input-btn' type='submit'>
+                    <Link to={'/sign-in'} className='form-input-btn' type='submit'>
                         Create Merchant Account
-                    </button>
+                    </Link>
                     <span className='form-input-login'>
                             Already have an account?  <Link to='#'>Sign in</Link>
                     </span>
