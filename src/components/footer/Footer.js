@@ -1,10 +1,14 @@
 import './footer.scss'
+import Fade from 'react-reveal';
 
 export default function Footer() {
   return (
-    <div className='footer'>
-        <p>&copy; &nbsp;Switch App</p>
-        <p>Privacy & terms</p>
-    </div>
+    <Fade bottom cascade>
+      <div className='footer'>
+          <p>&copy; &nbsp;Switch App</p>
+          <p>Privacy & terms</p>
+      </div>
+    </Fade>
+
   )
 }
