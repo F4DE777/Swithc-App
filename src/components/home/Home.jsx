@@ -15,10 +15,8 @@ useEffect(() => {
 }, [])
   return (
       <div className="cover-log page" >
-          <Fade bottom cascade>
             <div className="card-cover" >
                     <img src={Logo} alt="logo" />
-              <Fade bottom cascade>
                   <form className="card-content">
                       <h4>Get started with Switch App</h4>
                       <ul>
@@ -41,9 +39,7 @@ useEffect(() => {
                           <input className="submit disable" type="button" id="submit" value="Continue" />
                       </Link>
                   </form>
-              </Fade>
             </div>
-          </Fade>
 
         <Footer/>
       </div>

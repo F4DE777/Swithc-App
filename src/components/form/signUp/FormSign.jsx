@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import CountryDropdown from 'country-dropdown-with-flags-for-react';  
 import validate from './validateInfo';
 import useForm from './useForm';
-import Fade from 'react-reveal';
 
 
 export default function FormSign({submitForm}) {
@@ -14,7 +13,6 @@ export default function FormSign({submitForm}) {
         validate
       );
   return (
-    <Fade bottom cascade>
         <div className='form-right page'>
                 <div className='form-content-right'>
                     <h3>Create your Merchant account</h3>
@@ -90,7 +88,6 @@ export default function FormSign({submitForm}) {
                     </form>
                 </div>
         </div>
-    </Fade>
 
   )
 }

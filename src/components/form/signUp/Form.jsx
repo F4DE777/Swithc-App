@@ -5,7 +5,6 @@ import Back from '../../../assets/vuesax-bulk-arrow-circle-left.svg'
 import FormSign from './FormSign';
 import { Link } from 'react-router-dom';
 import Footer from '../../footer/Footer';
-import Fade, { Rotate, Zoom } from 'react-reveal';
 
 export default function Form() {
 
@@ -13,17 +12,12 @@ export default function Form() {
   return (
         <div className='container'>
                 <Link to={'/'} className='previous'>
-                    <Zoom left delay={500}>
                         <img src={Back} alt="" />
                         <p>Back</p>
-                    </Zoom>
                 </Link>
             <div className='cover-sign'>
                 <div className='started'>
-                <Rotate top left>
                     <img src={Logo} alt="" />
-                </Rotate>
-                    <Fade bottom cascade>
                         <ul className='start'>
                             <li>
                                 <h5>Get started quickly</h5>
@@ -38,12 +32,9 @@ export default function Form() {
                                 <p>Switch App is trusted by ambitious startups and enterprises of every size.</p>
                             </li>
                         </ul>
-                    </Fade>
 
                 </div>
-                <Fade bottom cascade>
                     <FormSign/>
-                </Fade>
 
             </div>
             <Footer/>
