@@ -294,6 +294,16 @@
               }
           }
       }
+
+      @media screen and (max-width: 1380px){
+        gap: 0.6rem;
+        padding: 10px 20px;
+
+        .form{
+            gap: 0.8rem;
+
+        }
+    }
   }
 }
 

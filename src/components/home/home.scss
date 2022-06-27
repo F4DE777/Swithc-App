@@ -1,4 +1,4 @@
-.cover{
+.cover-log{
     background-attachment: fixed;
     background-image: url('../../assets/MaskGroup.svg');
     background-position: center;
@@ -76,7 +76,7 @@
                     justify-content: flex-start;
                     gap: 1rem;
                     grid-template-columns: 5% 1fr;
-                    #checkit{
+                    input[type="radio" i]{
                         // width: 50px;
                         // height: 50px;
                         // border: 2px solid #191919;

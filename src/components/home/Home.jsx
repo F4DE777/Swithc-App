@@ -14,7 +14,7 @@ useEffect(() => {
   console.log(rad1);
 }, [])
   return (
-      <div className="cover page" >
+      <div className="cover-log page" >
           <Fade bottom cascade>
             <div className="card-cover" >
               <Rotate top left>
