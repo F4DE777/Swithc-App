@@ -17,9 +17,7 @@ useEffect(() => {
       <div className="cover-log page" >
           <Fade bottom cascade>
             <div className="card-cover" >
-              <Rotate top left>
                     <img src={Logo} alt="logo" />
-              </Rotate>
               <Fade bottom cascade>
                   <form className="card-content">
                       <h4>Get started with Switch App</h4>

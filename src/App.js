@@ -17,9 +17,11 @@ function App() {
                       <Route index element={<ForgotPassword />} />                  
                   </Route>
                   <Route path="sign-in">
-                  <Route index element={<Login />} />
-                    {/* <Route path=":productId" element={<Single />} /> */}
-              </Route>
+                      <Route index element={<Login />} />
+                  </Route>
+                  <Route path="forgot-password">
+                      <Route index element={<ForgotPassword />} />
+                  </Route>
               </Route>
           </Routes>
       </BrowserRouter>

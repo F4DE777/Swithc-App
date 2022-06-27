@@ -85,7 +85,7 @@ export default function FormSign({submitForm}) {
                             Create Merchant Account
                         </Link>
                         <span className='form-input-login'>
-                                Already have an account?  <Link to='#'>Sign in</Link>
+                                Already have an account?  <Link to='/sign-in'>Sign in</Link>
                         </span>
                     </form>
                 </div>
