@@ -133,12 +133,13 @@
 
             @keyframes slideupLeft {
             from {
-                margin-top: 10%;
-                margin-left: 10%;
+                margin-top: 15%;
+                margin-right: -15%;
             }
             
             to {
-                margin-left: 0%;
+                margin-top: 0;
+                margin-right: 0;
             }
             }
     
