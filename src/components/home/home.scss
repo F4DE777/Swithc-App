@@ -28,8 +28,8 @@
     }
 
     .card-cover{
-        width: 30%;
-        height: 60%;
+        width: 40%;
+        // height: 60%;
         justify-content: flex-start;
         margin: 0 auto;
         align-items: flex-start;
@@ -149,5 +149,9 @@
                 }
             }
         }
+    }
+
+    @media screen and (max-width: 1380px){
+
     }
 }
